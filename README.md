@@ -25,8 +25,10 @@ An asynchronous Telegram bot running 24/7 on a Raspberry Pi 5 that acts as a spo
 ---
 
 ### 📊 GitHub Stats
-![Anurag's GitHub stats](https://vercel.app)
-![Top Langs](https://vercel.app)
+<p align="center">
+  <img src="https://vercel.app" alt="dotsolvit GitHub stats" height="180" />
+  <img src="https://vercel.app" alt="dotsolvit Top Langs" height="180" />
+</p>
 
 ---
 
