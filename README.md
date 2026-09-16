@@ -1,12 +1,35 @@
-## Hi there 👋
-🌱 I’m currently studying at Nanit Academy as an Embedded Engineer.
+# Hi there, I'm Oleksandr 👋
 
-🔭 During my studies, I mastered the skills of developing systems based on STM32, ESP32, ESP8266 microcontrollers, AT Mega 2560, AT Mega 328 (C/C++), Raspberry Pi 5 microcomputer (Python), and PCB development in the EasyEda environment.
+I am an embedded engineer passionate about hardware, software, and building practical, lightweight applications. My primary focus is on developing systems based on STM32, ESP32, and ATMega, robotics, smart home automation, and deploying AI models onto edge computing devices like the Raspberry Pi.
 
-⚡I have independently completed a number of coursework on sensor control and module management, including remote control using a web server (HTML, CSS, JavaScript). Some works are available on GitHub: 
-https://github.com/dotsolvit/rpi5-ai-english-tutor
-https://github.com/dotsolvit/ESP32_SearcherAStar,
-https://github.com/dotsolvit/esp32c6-iot-weather-station,
-https://github.com/dotsolvit/SmartHomeBarrier
+---
+
+### 🛠️ Tech Stack & Tools
+
+* **Languages:** C, C++, Python, JavaScript (Basics), HTML/CSS
+* **Microcontrollers & Single-Board Computers:** STM32, ESP32, ESP8266, ATmega2560, ATmega328, Raspberry Pi 5
+* **Interfaces & Protocols:** UART, I2C, SPI, MQTT (Mosquitto), JSON
+* **IDEs & Ecosystems:** STM32CubeIDE (+ CubeMX), VS Code (+ PlatformIO), Arduino IDE
+* **Hardware Design (EDA):** EasyEDA (Schematics & PCB Design)
+* **Tools & OS:** Git, GitHub, Linux (CLI, Admin, Scripting), Raspberry Pi OS, Windows
+
+
+---
+
+### 🚀 Highlighted Project
+📌 **[rpi5-ai-english-tutor](https://github.com)**
+An asynchronous Telegram bot running 24/7 on a Raspberry Pi 5 that acts as a spoken English tutor. 
+* Fully async audio pipeline using system `ffmpeg` (Python 3.13+ compatible).
+* Built-in token budget tracking and cumulative logging.
+
+---
+
+### 📊 GitHub Stats
+![Anurag's GitHub stats](https://vercel.app)
+![Top Langs](https://vercel.app)
+
+---
+
+📬 **How to reach me:** Connect with me on [LinkedIn](https://www.linkedin.com/in/oleksandrdotsenko/)
 
 
