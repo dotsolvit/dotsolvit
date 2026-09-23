@@ -24,13 +24,6 @@ An asynchronous Telegram bot running 24/7 on a Raspberry Pi 5 that acts as a spo
 
 ---
 
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dotsolvit&theme=radical" alt="dotsolvit GitHub Streak" height="145" />
-</p>
-
----
-
 📬 **How to reach me:** Connect with me on [LinkedIn](https://www.linkedin.com/in/oleksandrdotsenko/)
 
 
