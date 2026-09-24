@@ -10,10 +10,10 @@ I combine firmware development with hands-on hardware debugging using digital os
 ### 🛠️ Tech Stack & Tools
 
 * **Languages:** C, C++, Python, JavaScript (Basics), HTML/CSS
-* **Microcontrollers & Single-Board Computers:** STM32(Cortex-M), ESP32, ESP8266, ATmega2560, ATmega328, Raspberry Pi 5
+* **Microcontrollers & SBCs:** STM32(Cortex-M), ESP32, ESP8266, ATmega2560, ATmega328, Raspberry Pi 5
 * **Interfaces & Protocols:** UART, I2C, SPI, MQTT (Mosquitto), JSON
-* **IDEs & Ecosystems:** STM32CubeIDE (+ CubeMX), Keil uVision5 (Arm Compiler 6), VS Code (+ PlatformIO), Arduino IDE
-* **Hardware Design (EDA):** EasyEDA (Schematics & PCB), Digital Oscilloscope (OWON SDS210S), Logic Analyzers, THT/SMD soldering
+* **IDEs & Toolchains:** STM32CubeIDE (+ CubeMX), Keil uVision5 (Arm Compiler 6), VS Code (+ PlatformIO), Arduino IDE
+* **Hardware & EDA:** EasyEDA (Schematics & PCB), Digital Oscilloscope (OWON SDS210S), Logic Analyzers, THT/SMD soldering
 * **Tools & OS:** Git, GitHub, Linux (CLI, Admin, Bash Scripting), Raspberry Pi OS, Windows
 
 
