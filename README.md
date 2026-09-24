@@ -1,8 +1,9 @@
 # Hi there, I'm Oleksandr 👋
 
-I am an embedded engineer passionate about hardware, software, and building practical, lightweight applications. My primary focus is on developing systems based on STM32, ESP32, and ATMega, robotics, smart home automation, and deploying AI models onto edge computing devices like the Raspberry Pi.
+I am an embedded software engineer passionate about hardware, software, and building reliable, lightweight applications. My primary focus is on developing automation systems based on STM32, ESP32, and ATMega, robotics, smart home integration, and deploying AI models onto edge computing devices like the Raspberry Pi 5.
 
 I combine firmware development with hands-on hardware debugging using digital oscilloscopes and logic analyzers.
+
 
 ---
 
