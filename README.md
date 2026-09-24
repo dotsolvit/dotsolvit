@@ -25,7 +25,7 @@ A hardware-verified benchmark analyzing ST HAL library overhead vs. direct regis
 * Measured a **14.5x** execution speed difference under `-O0` using an **OWON SDS210S** oscilloscope.
 * Captured and analyzed hardware artifacts like **compiler loop unrolling** and **Flash prefetch buffer stalls** at 48 MHz.
 
-📌 **[rpi5-ai-english-tutor]([https://github.com](https://github.com/dotsolvit/rpi5-ai-english-tutor)**
+📌 **[rpi5-ai-english-tutor](https://github.com/dotsolvit/rpi5-ai-english-tutor)**
 An asynchronous Telegram bot running 24/7 on a Raspberry Pi 5 that acts as a spoken English tutor. 
 * Fully async audio pipeline using system `ffmpeg` (Python 3.13+ compatible).
 * Built-in token budget tracking and cumulative logging.
