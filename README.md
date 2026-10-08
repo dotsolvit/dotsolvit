@@ -21,6 +21,12 @@ I combine firmware development with hands-on hardware debugging using digital os
 
 ### 🚀 Highlighted Project
 
+📌 **[stm32-nonblocking-firmware-template](https://github.com/dotsolvit/stm32-nonblocking-firmware-template)**
+A production-grade, event-driven firmware template for the STM32F103 (Cortex-M3) showing an efficient bare-metal architecture.
+* Implemented a completely **non-blocking main loop** scheduler via SysTick, cutting out all blocking delays.
+* Offloaded ISRs with asynchronous callback interlocking: EXTI-triggered ADC sampling and a fast **20-byte UART Ring Buffer**.
+* Embedded low-level Flash memory operations (page erasing/half-word writing) and custom UART/Flash hardware error handling.
+
 📌 **[stm32f0-gpio-speed-comparison](https://github.com/dotsolvit/stm32f0-gpio-speed-comparison)**
 A hardware-verified benchmark analyzing ST HAL library overhead vs. direct register access (CMSIS).
 * Measured a **14.5x** execution speed difference under `-O0` using an **OWON SDS210S** oscilloscope.
