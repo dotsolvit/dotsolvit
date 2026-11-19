@@ -21,6 +21,13 @@ I combine firmware development with hands-on hardware debugging using digital os
 
 ### 🚀 Highlighted Project
 
+📌 **[STM32F1-smartUGV-RPi5-Astar](https://github.com)**
+An autonomous unmanned ground vehicle (UGV) featuring distributed control architecture, sensor fusion, dynamic obstacle avoidance, and A* path planning.
+* **Real-Time Firmware (STM32F103):** Built a non-blocking state-machine architecture (HAL + direct register access) handling 4-channel PWM motor control (DRV8833), servo scanning (TIM1), hardware input-capture odometry (TIM3), and microsecond integration (TIM2).
+* **Sensor Fusion & Calibration:** Combined MPU6050 gyroscope (50 Hz) and HP5883 magnetometer (10 Hz) via a complementary filter with 0°/360° wrap-around handling and automated Hard-Iron calibration saved to internal Flash.
+* **Custom Binary UART Protocol:** Designed a fault-tolerant, zero-overhead binary protocol (`CRC8` verified) bridging STM32, an ESP32-CAM MQTT gateway, and a Raspberry Pi 5 navigation server.
+
+
 📌 **[stm32-nonblocking-firmware-template](https://github.com/dotsolvit/stm32-nonblocking-firmware-template)**
 A production-grade, event-driven firmware template for the STM32F103 (Cortex-M3) showing an efficient bare-metal architecture.
 * Implemented a completely **non-blocking main loop** scheduler via SysTick, cutting out all blocking delays.
@@ -31,11 +38,6 @@ A production-grade, event-driven firmware template for the STM32F103 (Cortex-M3)
 A hardware-verified benchmark analyzing ST HAL library overhead vs. direct register access (CMSIS).
 * Measured a **14.5x** execution speed difference under `-O0` using an **OWON SDS210S** oscilloscope.
 * Captured and analyzed hardware artifacts like **compiler loop unrolling** and **Flash prefetch buffer stalls** at 48 MHz.
-
-📌 **[rpi5-ai-english-tutor](https://github.com/dotsolvit/rpi5-ai-english-tutor)**
-An asynchronous Telegram bot running 24/7 on a Raspberry Pi 5 that acts as a spoken English tutor. 
-* Fully async audio pipeline using system `ffmpeg` (Python 3.13+ compatible).
-* Built-in token budget tracking and cumulative logging.
 
 📌 **[esp32-c6-low-power-weather-station](https://github.com/dotsolvit/esp32c6-iot-weather-station)**
 An energy-efficient low-power IoT weather station monitoring environmental data.
